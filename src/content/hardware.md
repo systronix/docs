@@ -168,6 +168,7 @@ Memory mapping
 
 ###Internal Flash Memory Map
 
+
 The STM32 has a total of 128KB internal flash memory which is divided into three main regions by us. Beginning at the top of the memory space is where the bootloader is saved and locked. The second region is reserved for storing system flags and the third region holds the actual user firmware.
 
 <table border = '1'>
